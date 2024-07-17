@@ -1,0 +1,2 @@
+jmeter -n -t restful-bookingAPI_T10000.jmx -l report\restful-bookingAPI_T10000.jtl (report create)
+jmeter -g report\restful-bookingAPI_T10000.jtl -o report\restful-bookingAPI_T10000.html(html file created)
