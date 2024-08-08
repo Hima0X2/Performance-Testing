@@ -24,15 +24,15 @@ Finally, the JTL file was used to generate a test report.
 Command to run the JTL file and create an HTML report file: **jmeter -g report\restful-bookingAPI_T100.jtl -o report\restful-bookingAPI_T10000.html**
 
 
-![TestReport](![Uploading image.png…]()
-)
+![TestReport]![image](https://github.com/user-attachments/assets/0a17b6f7-0d27-4465-83e4-9f10291495b1)
+
 
 ## Load Testing
-Load testing involves assessing how a system performs under expected loads. For finding the maximum load capacity of [Restful-Booker](http://restful-booker.herokuapp.com/) when requesting a collection of APIs, Thread Groups of 4680, 4690. 4695, and 4700 threads are used. 
+Load testing involves assessing how a system performs under expected loads. For finding the maximum load capacity of [Restful-Booker](http://restful-booker.herokuapp.com/) when requesting a collection of APIs, Thread Groups of 10000 threads are used. 
 For all Thread Groups, the Ramp-up period is set to 10s with a loop count of 1.
 
 ### First Thread Group
-Number of Threads 4680, Ramp-up period 10s, loop count of 1:
+Number of Threads 10000, Ramp-up period 10s, loop count of 1:
 | Summary Report | Errors |
 | ------------- | ------------- |
 |  ![4680_summary](https://github.com/salekinraju/PerformanceTesting_Restful-Booker/assets/58147883/397e7646-7d5c-4911-b08f-a5cfc19406f5) |![4680_error](https://github.com/salekinraju/PerformanceTesting_Restful-Booker/assets/58147883/f8481f53-435c-4447-80ba-42467a3265aa)|
