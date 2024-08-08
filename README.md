@@ -17,14 +17,15 @@ After Collecting APIs and adding HTTP requests, the Thread Group was tweaked usi
 
 The JMX file was then used in Command Prompt to run the test and create a JTL file. 
 
-Command to run the JMX file for testing and creating the JTL file: **jmeter -n -t restful-bookingAPI_T10000.jmx -l report\restful-bookingAPI_T10000.jtl**
+Command to run the JMX file for testing and creating the JTL file: **jmeter -n -t restful-bookingAPI_T100.jmx -l report\restful-bookingAPI_T10000.jtl**
 
 Finally, the JTL file was used to generate a test report.
 
-Command to run the JTL file and create an HTML report file: **jmeter -g report\restful-bookingAPI_T10000.jtl -o report\restful-bookingAPI_T10000.html**
+Command to run the JTL file and create an HTML report file: **jmeter -g report\restful-bookingAPI_T100.jtl -o report\restful-bookingAPI_T10000.html**
 
 
-![TestReport](https://github.com/salekinraju/PerformanceTesting_Restful-Booker/assets/58147883/b8a2e20a-7d48-4183-b27a-7d491a032902)
+![TestReport](![Uploading image.png…]()
+)
 
 ## Load Testing
 Load testing involves assessing how a system performs under expected loads. For finding the maximum load capacity of [Restful-Booker](http://restful-booker.herokuapp.com/) when requesting a collection of APIs, Thread Groups of 4680, 4690. 4695, and 4700 threads are used. 
