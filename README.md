@@ -17,11 +17,11 @@ After Collecting APIs and adding HTTP requests, the Thread Group was tweaked usi
 
 The JMX file was then used in Command Prompt to run the test and create a JTL file. 
 
-Command to run the JMX file for testing and creating the JTL file: **_jmeter -n -t TestPlan.jmx -l TestPlan.jtl_**
+Command to run the JMX file for testing and creating the JTL file: **jmeter -n -t restful-bookingAPI_T10000.jmx -l report\restful-bookingAPI_T10000.jtl**
 
 Finally, the JTL file was used to generate a test report.
 
-Command to run the JTL file and create an HTML report file: **_jmeter -g TestPlan.jtl -o TestPlan_6000.html_**
+Command to run the JTL file and create an HTML report file: **jmeter -g report\restful-bookingAPI_T10000.jtl -o report\restful-bookingAPI_T10000.html**
 
 
 ![TestReport](https://github.com/salekinraju/PerformanceTesting_Restful-Booker/assets/58147883/b8a2e20a-7d48-4183-b27a-7d491a032902)
