@@ -34,26 +34,5 @@ This project uses **Apache JMeter** to load and stress test the [Restful Booker 
 ## ⚙️ Prerequisites
 
 - JMeter installed and added to system path  
-- Java 8 or Java 11 installed  
+- Java 11 or Java 17 installed  
 - Git installed (optional for cloning repo)
-
----
-
-## ▶️ How to Run This Project
-
-1. Clone the repository  
-2. Open `booking.jmx` in JMeter  
-3. Run using GUI or from CLI
-
-## How to generate report
-Delete the previously Report folder from the project
-Open command promt in bin folder of the Jmeter installation location
-hit this command: jmeter -n -t .\Restful-booker.jmx -l restfulbooker-performance.csv -e -o Reports
-
-## Report of load testing
-
-## Test Plan
-
-## View Result Tree
-
-## Summery Report
