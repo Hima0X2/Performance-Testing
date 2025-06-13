@@ -2,38 +2,51 @@
 
 ## Project Scenario (Request):
 
-  1. Login to user
-  2. Create a new agent
-  3. Give balance to the newly created agent from system
-  4. Create a customer
-  5. Search the newly created user by phone number
-  6. Deposit balance to the customer from the agent
-  7. Withdraw some money from the agent
-  8. Delete the user
+This JMeter test simulates realistic user activity within the Dmoney system. The following transactional scenarios were executed:
+
+- ✅ **Login to user account**  
+  - A single login request was successfully executed to authenticate the user.
+
+- ✅ **Deposit Transactions**  
+  - Simulated 5 agents depositing money to 10 different customers.  
+  - A total of 50 deposit requests were successfully executed.
+
+- ✅ **Send Money Transactions**  
+  - Simulated 5 customers sending money to 10 other customers.  
+  - A total of 50 money transfer requests were performed without errors.
+
+- ✅ **Payment Transactions**  
+  - Simulated 5 customers making payments to 2 different merchants.  
+  - A total of 10 merchant payment requests were processed.
 
 ## Technology and Tool Used
   - Apache Jmeter
-  - JAVA 8
+  - JAVA 17(LTS)
  
 ## Prerequisite
   - Jmeter must be installed
-  - JAVA 8 or 11 must be installed
+  - JAVA 11 or 17 must be installed
   
 ## How to run this project
   - Clone this project
-  - Copy the Dmoney-Load-Test.jmx file and place it in the bin folder of the Jmeter installation location
-  - Run the project by opening the Dmoney-Load-Test.jmx file in Jmeter
+  - Copy the Dmoney.jmx file and place it in the bin folder of the Jmeter installation location
+  - Run the project by opening the Dmoney.jmx file in Jmeter
   
 ## How to generate report
   - Delete the previously Report folder from the project 
   - Open command promt in bin folder of the Jmeter installation location
-  - hit this command: jmeter -n -t .\Dmoney-Api-Performance-Test.jmx -l dmoneyapi-performance.csv -e -o Reports
+  - hit this command: jmeter -n -t .\Dmoney.jmx -l Dmoney.jtl -e -o Reports
    
 ## Report of load testing
-
+![image](https://github.com/user-attachments/assets/fffa9d5f-1c7d-4388-a021-7850efd712ae)
 
 ## Test Plan
+![image](https://github.com/user-attachments/assets/ddff6ddb-e10a-4548-8999-9af1e83ffffb)
 
 ## View Result Tree
+![image](https://github.com/user-attachments/assets/f70a35ce-85f9-4336-a62b-de47d888fe9c)
 
 ## Summary Report
+![image](https://github.com/user-attachments/assets/4357f66f-11b0-41a4-9f32-deb0342fa37c)
+
+**Note:** This test did not include user creation, agent registration, balance funding from the system, or user deletion. It focuses purely on existing users performing transaction operations under load.
