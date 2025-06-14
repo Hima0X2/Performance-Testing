@@ -38,10 +38,10 @@ This JMeter test simulates realistic user activity within the Dmoney system. The
   - hit this command: jmeter -n -t .\Dmoney.jmx -l Dmoney.jtl -e -o Reports
    
 ## Report of load testing
-![image](https://github.com/user-attachments/assets/fffa9d5f-1c7d-4388-a021-7850efd712ae)
+![image](https://github.com/user-attachments/assets/9d2fe99e-a7a8-4217-8c63-37ce819a2a48)
 
 ## Test Plan
-![image](https://github.com/user-attachments/assets/59a126c8-a688-441d-907a-9b89841f4c30)
+![image](https://github.com/user-attachments/assets/25fb2d45-fdcd-42ea-ab8a-9b7fa5d8c9b6)
 
 ## View Result Tree
 ![image](https://github.com/user-attachments/assets/f70a35ce-85f9-4336-a62b-de47d888fe9c)
