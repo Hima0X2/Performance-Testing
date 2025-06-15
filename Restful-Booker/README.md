@@ -72,8 +72,12 @@ hit this command: jmeter -n -t .\*-min-Booking.jmx.jmx -l *-min-Booking.jtl -e -
 ![image](https://github.com/user-attachments/assets/a3e785ee-1b7b-484e-881a-26c631770dd5)
 
 #### Iteration 3.1 :
-![image](https://github.com/user-attachments/assets/fce080bf-6c82-4a62-83c5-a15dd9bdd9b3)
+![image](https://github.com/user-attachments/assets/065a87d0-1a32-45ad-96c0-0edb1c280279)
 
-#### Iteration 3.2 :
+#### Iteration 3.1.1 :
+![image](https://github.com/user-attachments/assets/4c0c7fe3-3b72-4b3d-8701-3fc3039dc563)
 
-#### Iteration 3.3 :
+#### Iteration 3.1.2 :
+
+#### Iteration 3.1.3 :
+![image](https://github.com/user-attachments/assets/571e8ec0-5974-475a-83f5-356068254389)
